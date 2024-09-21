@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <header class="header">
+     <a href="#" class="logo"><span>Shahd</span>Mohsen</a>
+      <nav class="navbar">
+         <a href="#" class="active">Portfolio</a>
+         <a href="#about-section">About me</a> <!-- تم تعديل هذا السطر -->
+         <a href="#skills-section">Skills</a>
+         <a href="#projects-section">Projects</a> <!-- تعديل الرابط -->
+         <!--<a href="#">Education</a>-->
+      </nav>
+       <a href="#contact-section" class="contact">Contact Me</a> <!-- تم تعديل هذا السطر -->
+  </header>
+
+  <section class="home">
+     <div class="home-content">
+         <h3>Hi</h3>
+         <h1>I'm <span>Shahd <br></span>I graduated in Computer Systems Engineering from the Arab American University and completed training as a development Verification at Asal Company. I am currently taking a web course with Gaza Sky Geeks.</h1>
+         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui corporis officia velit iusto assumenda sunt quisquam magnam delectus laboriosam, iste, quidem esse blanditiis aperiam aut illum nobis vitae nisi quos.</p>
+         <div class="btn-box">
+             <button class="btn-1">Hire Me</button>
+             <button class="btn-2">Experience</button>
+         </div>
+     </div>
+     <div class="img-box">
+        <img src="./بنت.jfif" alt="">
+     </div>
+  </section>
+     <!-- أعلى الصفحة -->
+      <a id="top"></a>
+
+       <!-- محتوى الصفحة -->
+         <section class="content">
+          <!-- المحتوى هنا -->
+          </section>
+
+            <!-- زر التمرير لأعلى -->
+           <a href="#top" id="scrollButton" title="Go to top">⇪</a>
+
+
+             <!-- أضفنا id لقسم "About me" -->
+    <section class="about" id="about-section">
+      <!--<div class="about-img">
+        <img src="./بنت.jfif" alt="">
+     </div>-->
+     <div class="about-content">
+        <h2 class="heading">About<span> Me</span></h2>
+        <h3>Development<span>Verification</span></h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id cum pariatur, laborum quae eligendi atque mollitia debitis nihil, ab reprehenderit cumque repellat deleniti rerum? Officia officiis iusto nostrum fugiat in!</p>
+     </div>
+  </section>
+  <section class="skills-section" id="skills-section">
+       <h2>Skills</h2>
+       <div class="skills-container">
+       <div class="skill">HTML5 & CSS3</div>
+       <div class="skill">JavaScript (ES6+)</div>
+       <div class="skill">React & Redux</div>
+       <div class="skill">Node.js & Express</div>
+       <div class="skill">SQL & NoSQL Databases</div>
+       <div class="skill">Git & GitHub</div>
+       <div class="skill">Responsive Design</div>
+   </div>
+</section>
+
+<section class="projects-section" id="projects-section">
+   <h2 class="heading">My <span>Projects</span></h2>
+   <div class="projects-container">
+       <div class="project-card">
+           <h3>Project 1</h3>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, amet iusto at ratione id deleniti rem! Magnam officiis sint provident cum similique optio sapiente, deleniti ea, libero aliquam itaque eveniet!</p>
+       </div>
+       <div class="project-card project-special" >
+           
+           <h3>Project 2</h3>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa voluptas, molestiae placeat minus rem a nisi exercitationem iusto adipisci nobis repellendus? Itaque quam sunt nisi?</p>
+       </div>
+       <div class="project-card">
+           <h3>Project 3</h3>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit consequuntur molestiae asperiores, eos ipsam illo officiis, quaerat quia delectus eum suscipit magnam odit repellat incidunt tempore consectetur nulla nisi ullam?</p>
+       </div>
+   </div>
+</section>
+
+
+
+  <!-- قسم الاتصال مع id لتحديده كهدف -->
+  <section class="contact-form" id="contact-section">
+   <h2 class="contact-me">Contact<span>Me</span></h2>
+   <form action="" method="post"> <!-- الإبقاء على action فارغًا -->
+       <div class="input-box">
+           <input type="text" placeholder="Full Name" required>
+           <input type="email" placeholder="Email" required pattern=".+@.+">
+       </div>
+       <div class="input-box">
+           <input type="number" placeholder="Phone Number" required>
+       </div>
+       <textarea name="" id="" cols="30" rows="10" placeholder="Your message" required></textarea>
+       <input type="submit" value="Send Message" class="btn-1">
+       <input type="reset" value="Reset" class="btn-1">
+   </form>
+</section>
+   
+</body>
+
+</html>
